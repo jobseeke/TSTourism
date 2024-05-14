@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Registration form</title>
+		<style>
+			label{
+			
+			}
+			input[type=text],input[type=password],input[type=date],select{
+				width:100%;
+				height:5%;
+				margin:8px 0px;
+				border-radius:4px;
+				border: 1px solid #ccc;
+				padding-left:10px;
+				font-size:1em;
+			}
+			input[type=reset] , input[type=submit]{
+				font-size:1.2em;
+				width: 40%;
+  				background-color: #4CAF50;
+				color: white;
+  				padding: 8px 20px;
+				margin: 8px 8px;;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				}
+			input[type=reset]:hover, input[type=submit]:hover {
+				background-color: #45a049;
+			}
+			.form{
+				padding-top:10px;
+				width:20%;
+				margin:auto;
+				font-size:1.2em;
+			}
+
+		</style>
+	</head>
+	<body style="background-color: #c8dec5; margin:0px;" >
+		<div style="min-height:75px; width:100%; background-color:#e9ecef;display:table;">
+			<h1 align=center style="display: table-cell; vertical-align: middle; text-align: center; width:100%; font-size:3em;">
+				Registration Form
+			</h1>
+		</div>
+	<div>
+		<div class="form" >
+			<form name="registration_form">
+				<label>Name</label>
+					<br>
+				<input type="text" id="name">
+					<br>
+				<label>Gender</label>
+					<br>
+				<select id="gender">
+					<option value=""></option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+					<br>
+				<label>Email</label>
+					<br>
+				<input type="text" id="email">
+					<br>
+				<label>Date of Birth</label>
+					<br>
+				<input type="date" id="dob">
+					<br>
+				<label>Username</label>
+					<br>
+				<input type="text" id="username">
+					<br>
+				<label>Password</label>
+					<br>
+				<input type="password" id="password">
+					<br>
+				<label>Confirm Password</label>
+					<br>
+				<input type="password" id="cpassword">
+					<br>
+				<input type="checkbox"> <label>I agree to the terms and conditions</label>
+					<br>
+				<input type="checkbox"> <label>I want to new and special offers</label>
+					<br>
+				<input type=reset value=clear>
+				<input type=submit value=submit>
+				
+			</form>
+	    </div>
+	</div>
+    </body>
+</html>

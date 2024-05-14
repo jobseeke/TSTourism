@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Feedback Form</title>
+		<style>
+		body{
+				background-color: black;
+				margin: 0px;
+			}
+			
+			.feedback-div{
+				background-color:#fff;
+				border-radius: 10px;
+				width: 35%;
+				height: 70%;
+				padding-left: 30px;
+			}
+			.temp{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+			}
+			p{
+			font-size:1.2em;
+			margin-block-start: 0.5em;;
+			margin-block-end: 0.5em;
+			}
+			input[type=text]{
+				width: 75%;
+				height:8%;
+				margin:8px 0px;
+				border-radius:4px;
+				border: 1px solid brown;
+				padding-left:10px;
+				font-size:1em;
+			}
+			label{
+				font-weight: bold;
+				padding-right:20px;
+			}
+			.login{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+			}
+			input[type=submit]{
+				width:100%;
+				height: 8%;
+				font-size:1.0em;
+				background-color: lightgreen;
+			}
+			input[type=submit]:hover{
+				color:white;
+				background-color: green;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="temp">
+			<div class="feedback-div" style="min-height: 200px; min-width: 200px; font-size:1.2em;">
+			<form>
+				<p style="font-size:2em; "> Feedback Form</p>
+				<p> Please provide tour feedback below:</p>
+				<p style="font-weight:700;">How do to rate overall experience ?</p>
+				<input type="radio" id="bad" name="grade">
+				<label> Bad</label>
+				<input type="radio" id="average" name="grade">
+				<label> Average</label>
+				<input type="radio" id="good" name="grade">
+				<label> Good</label><br>
+				<p>Comments:</p>
+				<textarea style="width:90%; height:20%;"></textarea>
+				<label>Name:</label> <input type="text" ><br>
+				<label>Email:</label> <input type="text" ><br>
+				<div style="width:30%; margin: auto; padding-top:10px;">
+					<input type="submit" value="POST" >
+				</div>
+			</form>	
+			</div>
+		</div>
+	</body>
+</html>

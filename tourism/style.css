@@ -1,0 +1,23 @@
+.dist-list{
+	background-color:rgba(0,255,0,0.5);
+	height: 100%;
+}
+.dist-list nav ul li{
+	list-style-type:none;
+	background-color:skyblue;
+	font-size: 30px;
+	text-decoration: blink;
+	border: 1px solid #fff;
+	text-align: center;
+	
+}
+.dist-list nav ul li a{
+	text-decoration: none;
+	color: blue;
+}
+.dist-list nav ul li a:hover{
+		color: red;
+}
+.dist-list nav ul{
+	padding-inline-start: 0em;
+}

@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Login Page</title>
+		<style>
+		body{
+				background-image: url("login-bk-image.jpg");
+				background-repeat:no-repeat;
+				background-size: cover;
+			}
+			input{
+				width:100%;
+				border: 2px solid #ccc;
+				border-radius:4px;
+				height:5%;
+				margin: 8px 0px;
+				font-size:0.8em;
+			}
+			label{
+				color:#fff;
+			}
+			input[type=submit]{
+				
+				font-size:1.0em;
+				background-color: lightgreen;
+			}
+			input[type=submit]:hover{
+				color:white;
+				background-color: green;
+			}
+			
+			.login-div{
+				margin:auto;
+				width:20%;		
+			}
+			.login{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="login">
+			<div class="login-div" style="font-size:1.5em;">
+				<form>
+					<img src="user-img.png" width=50% style="margin:auto; display:block;"><br>
+					<label>Username</label><br>
+					<input type="text" id="username"><br>
+					<label>Password</label><br>
+					<input type="password" id="password"><br>
+					<div style="width:40%; margin: auto;">
+					<input type="submit" value="Login" ></div>
+				</form>
+				
+			</div>
+		</div>
+	</body>
+</html>
